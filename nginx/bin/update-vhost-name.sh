@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i "s/example.com/${HOSTNAME}/g" /etc/nginx/sites-enabled/default.conf
+sed -i "s/example.com/$VHOST_NAME/g" /etc/nginx/sites-enabled/default.conf
