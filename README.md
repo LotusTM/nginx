@@ -12,6 +12,8 @@ This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docke
 ### Usage
 
     FROM lotustm/nginx
-    
-    ADD ./build /var/www/example.com/www
-    RUN /etc/nginx/bin/set-vhost-name.sh example.com
+
+    ENV SITENAME $SITENAME
+
+    ADD ./build /var/domains/$SITENAME/www
+    RUN sed -i "s/example.com/$SITENAME/g" /etc/nginx/sites-enabled/default.conf
