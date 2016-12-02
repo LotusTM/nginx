@@ -122,7 +122,9 @@ types {
     application/xslt+xml                  xsl;
     application/zip                       zip;
     text/css                              css;
+    text/csv                              csv;
     text/html                             htm html shtml;
+    text/markdown                         md;
     text/mathml                           mml;
     text/plain                            txt;
     text/vcard                            vcard vcf;
