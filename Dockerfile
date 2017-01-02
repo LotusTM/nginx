@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:alpine
 
 ADD nginx /etc/nginx
