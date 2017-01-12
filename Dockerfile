@@ -1,3 +1,3 @@
 FROM nginx:alpine
 
-ADD nginx /etc/nginx
+COPY nginx /etc/nginx
