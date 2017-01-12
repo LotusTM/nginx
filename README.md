@@ -13,5 +13,5 @@ Docker image with preconfigured nginx server optimized for serving static files 
 
     ENV SITENAME $SITENAME
 
-    ADD ./build /var/domains/$SITENAME/www
+    COPY ./build /var/domains/$SITENAME/www
     RUN sed -i "s/example.com/$SITENAME/g" /etc/nginx/sites-enabled/default.conf
