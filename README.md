@@ -1,17 +1,15 @@
-## Nginx Dockerfile with virtual host support
+## Pumped Nginx Docker image 
 
+Docker image with preconfigured nginx server optimized for serving static files and following sets of best practices 
 
-This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/lotustm/nginx/) with basic configuration and virtual host support.
+### Image Variants
 
-
-### Base Docker Image
-
-* [nginx](https://registry.hub.docker.com/_/nginx/)
-
+* lotustm/nginx
+* lotustm/nginx:alpine
 
 ### Usage
 
-    FROM lotustm/nginx
+    FROM lotustm/nginx:alpine
 
     ENV SITENAME $SITENAME
 
