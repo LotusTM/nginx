@@ -4,7 +4,7 @@ Docker image with preconfigured nginx server optimized for serving static files 
 
 ### Usage
 
-    FROM lotustm/nginx
+    FROM lotustm/nginx:alpine
 
     ENV SITENAME $SITENAME
 
