@@ -2,14 +2,9 @@
 
 Docker image with preconfigured nginx server optimized for serving static files and following sets of best practices 
 
-### Image Variants
-
-* lotustm/nginx
-* lotustm/nginx:alpine
-
 ### Usage
 
-    FROM lotustm/nginx:alpine
+    FROM lotustm/nginx
 
     ENV SITENAME $SITENAME
 
