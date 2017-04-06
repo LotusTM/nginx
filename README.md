@@ -6,6 +6,7 @@ Docker image with preconfigured nginx server optimized for serving static files 
 
     FROM lotustm/nginx
 
+    # replace `$SITENAME` with your domain name
     ENV SITENAME $SITENAME
 
     COPY ./build /var/domains/$SITENAME/www
