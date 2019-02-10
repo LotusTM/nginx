@@ -30,11 +30,9 @@ types {
     audio/mp4                             aac f4a f4b m4a;
     audio/mpeg                            mp3;
     audio/ogg                             oga ogg opus;
-    audio/x-m4a                           m4a;
     audio/x-realaudio                     ra;
     audio/x-wav                           wav;
     image/bmp                             bmp;
-    image/x-ms-bmp                        bmp;
     image/gif                             gif;
     image/jpeg                            jpeg jpg;
     image/png                             png;
@@ -51,7 +49,6 @@ types {
     video/quicktime                       mov;
     video/webm                            webm;
     video/x-flv                           flv;
-    video/x-m4v                           m4v;
     video/x-mng                           mng;
     video/x-ms-asf                        asf asx;
     video/x-ms-wmv                        wmv;
